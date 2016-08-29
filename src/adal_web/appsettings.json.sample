@@ -1,0 +1,22 @@
+{
+  "Authentication": {
+    "AzureAd": {
+      "AADInstance": "https://login.microsoftonline.com/",
+      "CallbackPath": "/signin-oidc",
+      "ClientId": "<ClientId from Azure AD>",
+      "Domain": "<Azure AD Domain>",
+      "TenantId": "<Azure AD TenantId>"
+    }
+  },
+  "ApplicationInsights": {
+    "InstrumentationKey": "<ApplicationInsights Key>"
+  },
+  "Logging": {
+    "IncludeScopes": true,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
